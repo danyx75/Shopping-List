@@ -74,4 +74,10 @@ button:focus {
     h1 {
         font-size: 2rem;
     }
+
+    li {
+        margin: 0;
+        font-size: 1rem;
+        padding-inline: .5rem;
+    }
 }
