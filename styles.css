@@ -67,6 +67,10 @@ button:focus {
 
 @media (max-width: 500px) {
     body {
-        margin-inline: 2rem
+        margin-inline: 1.5rem
+    }
+
+    h1 {
+        font-size: 2rem;
     }
 }
