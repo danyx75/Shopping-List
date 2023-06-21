@@ -67,7 +67,9 @@ button:focus {
 
 @media (max-width: 500px) {
     body {
-        margin-inline: 1.5rem
+        margin-inline: 1.5rem;
+        border: none;
+        margin-inline: none;
     }
 
     h1 {
