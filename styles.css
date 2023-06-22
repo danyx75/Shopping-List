@@ -51,6 +51,13 @@ h1 {
     font-weight: bold;
 }
 
+.input-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .5rem;
+}
+
 input {
     padding: .5rem;
     border: 2px solid rgb(232, 59, 59);
@@ -64,12 +71,6 @@ input:active {
     border-color: rgb(187, 47, 47);
 }
 
-li {
-    margin: 1rem 0 1rem 0;
-    font-size: 1.2rem;
-    padding-inline: .5rem;
-}
-    
 button {
     margin-left: .5rem;
     padding: .5rem 1.4rem;
@@ -87,10 +88,10 @@ button:focus {
     transition: background-color .2s linear;
 }
 
-.input-list {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+li {
+    margin: 1rem 0 1rem 0;
+    font-size: 1.2rem;
+    padding-inline: .5rem;
 }
 
 @media (max-width: 580px) {
