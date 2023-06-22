@@ -13,7 +13,6 @@ body {
 }
 
 .white-bg {
-    
     background-color: #fff;
     border-radius: 1rem;
     padding: 1rem;
@@ -23,7 +22,7 @@ body {
 
 .dots {
     border: 5px dotted rgb(232, 59, 59);
-    padding: 2rem;
+    padding: 2rem 2rem 10rem;
 }
 
 .title {
