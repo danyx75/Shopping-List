@@ -2,30 +2,28 @@ var input = document.getElementById("input");
 var button = document.getElementById("button");
 var ul = document.querySelector("ul");
 
-function inputValue() {
-  return input.value.length;
-}
+const inputValue = () => input.value.length;
 
-function createListElement() {
-	var li = document.createElement("li");
+const createListElement = () => {
+	    let li = document.createElement("li");
       li.appendChild(document.createTextNode(input.value));
       ul.appendChild(li);
-      var deleteBtn = document.createElement("button");
+      let deleteBtn = document.createElement("button");
       deleteBtn.appendChild(document.createTextNode("Delete"));
       li.appendChild(deleteBtn);
-      deleteBtn.addEventListener("click", function() {
+      deleteBtn.addEventListener("click", () => {
         li.remove();
       })
       input.value = "";
 }
 
-function clickEvent() {
+const clickEvent = () => {
   if(inputValue() > 0) {
     createListElement();
   }
 }
 
-function keypressEvent(event) {
+const keypressEvent = (event) => {
   if(inputValue() > 0 && event.which === 13) {
     createListElement();
   }
